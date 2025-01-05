@@ -1,0 +1,29 @@
+Credit Card Transactions Fraud Detection Dataset
+
+This simulated dataset comprises both genuine and fraudulent credit card transactions spanning from 1st Jan 2019, to 31st Dec 2020. The data encompasses transactions made by 1000 customers using credit cards across a pool of 800 merchants.
+
+Features:
+trans_date_trans_time: The date and time of the transaction.
+cc_num: The credit card number used for the transaction.
+merchant: The name of the merchant involved in the transaction.
+category: The category of the merchant's business.
+amt: The transaction amount in USD.
+first: The first name of the credit card holder.
+last: The last name of the credit card holder.
+gender: The gender of the credit card holder (F for female, M for male).
+street: The street address of the credit card holder.
+city: The city where the credit card holder resides.
+state: The state where the credit card holder resides.
+zip: The ZIP code of the credit card holder's location.
+lat: The latitude coordinate of the credit card holder's location.
+long: The longitude coordinate of the credit card holder's location.
+city_pop: The population of the city where the credit card holder resides.
+job: The occupation of the credit card holder.
+dob: The date of birth of the credit card holder.
+trans_num: A unique identifier for the transaction 
+unix_time: The transaction time in Unix timestamp format.
+merch_lat: The latitude coordinate of the merchant's location.
+merch_long: The longitude coordinate of the merchant's location.
+
+Target:
+is_fraud: A binary indicator (0 or 1) indicating whether the transaction is fraudulent (1-yes) or genuine (0-no).
