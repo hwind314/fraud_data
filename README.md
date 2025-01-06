@@ -8,9 +8,6 @@ M6.1.ipynd
 part 1 of data science modelling jupyter notebook
 contains: target encoding, logistic regression, 
 
-M6.1.html
-html file of jupyter notebook
-
 M6.2.ipynd
 part 2 of data science modelling jupyter notebook
 contains:  K means model, elbow method, silhouette method, DBScan
